@@ -53,7 +53,6 @@ public void setBombs()
     {
         int r1 = (int)(Math.random()*20);
         int c1 = (int)(Math.random()*20);
-        System.out.println(r1 + ","+c1);
         if(bombs.contains(buttons[r1][c1]) == false)
         {
             bombs.add(buttons[r1][c1]);
@@ -156,7 +155,6 @@ public class MSButton
                     }
                 }
             }
-            //System.out.println("bomb");
         }
         else if(countBombs(r,c)>0)
         {
